@@ -33,7 +33,7 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="backup.jsp">Backup</a>
                     <a class="dropdown-item" href="cargo.jsp">Cargo día 16</a>
-                    <a class="dropdown-item" href="#">Cobro dúplicado</a>
+                    <a class="dropdown-item" href="eliminar.jsp">Cobro dúplicado</a>
                     <a class="dropdown-item" href="#"></a>
                   </div>
                 </li>
@@ -41,10 +41,16 @@
             </div>
         </nav>
         <div class="jumbotron" id="ejecutar">
-            <h1 class="h2 alineacion">Realizar backup de Base de Datos</h1>
-            <p class="lead alineacion">En este módulo, podrá realizar una copia de seguridad de su base de datos todos los días.</p>
+            <h1 class="h2 alineacion">Realizar cargo de lecturas al sistema SIGEES</h1>
+            <p class="lead alineacion">Seleccione un archivo de tipo excel que contenga los campos correspondientes para realizar el cargo de cuentas del recorrido elegido.</p>
             <hr class="my-4">
-            <a class="btn btn-primary btn-lg" id="empezar" href="#" role="button">Empezar</a>
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Seleccione el archivo que desea cargar</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </form>
+            <a class="btn btn-primary btn-lg" id="cargo" href="#" role="button">Cargar</a>
         </div>
     </body>
 </html>

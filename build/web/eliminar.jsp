@@ -41,16 +41,18 @@
             </div>
         </nav>
         <div class="jumbotron" id="ejecutar">
-            <h1 class="h2 alineacion">Realizar cargo de lecturas al sistema SIGEES</h1>
-            <p class="lead alineacion">Seleccione un archivo de tipo excel que contenga los campos correspondientes para realizar el cargo de cuentas del recorrido elegido.</p>
+            <h1 class="h2 alineacion">Eliminar pagos dúplicados.</h1>
+            <p class="lead alineacion">Ingrese el número de transacción cuyo número de factura se encuentre dúplicado.</p>
             <hr class="my-4">
             <form>
-                <div class="form-group">
-                  <label for="exampleFormControlFile1">Seleccione el archivo que desea cargar</label>
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="number" class="form-control" placeholder="Número de Transacción">
+                  </div>
                 </div>
+                <br>
+                <a class="btn btn-primary btn-lg" id="eliminar" href="#" role="button">Eliminar</a>
             </form>
-            <a class="btn btn-primary btn-lg" id="cargo" href="#" role="button">Cargar</a>
         </div>
     </body>
 </html>
