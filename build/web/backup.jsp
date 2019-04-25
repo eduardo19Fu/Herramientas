@@ -44,7 +44,7 @@
             <h1 class="h2 alineacion">Realizar backup de Base de Datos</h1>
             <p class="lead alineacion">En este módulo, podrá realizar una copia de seguridad de su base de datos todos los días.</p>
             <hr class="my-4">
-            <a class="btn btn-primary btn-lg" id="empezar" href="#" role="button">Empezar</a>
+            <a class="btn btn-primary btn-lg" id="empezar" href="back" role="button">Empezar</a>
         </div>
     </body>
 </html>
