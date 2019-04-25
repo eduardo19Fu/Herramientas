@@ -32,7 +32,7 @@
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="backup.jsp">Backup</a>
-                    <a class="dropdown-item" href="#">Cargo día 16</a>
+                    <a class="dropdown-item" href="cargo.jsp">Cargo día 16</a>
                     <a class="dropdown-item" href="#">Cobro dúplicado</a>
                     <a class="dropdown-item" href="#"></a>
                   </div>
