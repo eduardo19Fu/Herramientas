@@ -42,7 +42,7 @@
         </nav>
         <div class="jumbotron" id="ejecutar">
             <h1 class="h2 alineacion">Realizar cargo de lecturas al sistema SIGEES</h1>
-            <p class="lead alineacion">Seleccione un archivo de tipo excel que contenga los campos correspondientes para realizar el cargo de cuentas del recorrido elegido.</p>
+            <p class="lead alineacion">Seleccione un archivo de tipo excel que contenga     los campos correspondientes para realizar el cargo de cuentas del recorrido elegido.</p>
             <hr class="my-4">
             <form>
                 <div class="form-group">

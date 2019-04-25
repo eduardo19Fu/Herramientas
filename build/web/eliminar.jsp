@@ -44,14 +44,14 @@
             <h1 class="h2 alineacion">Eliminar pagos dúplicados.</h1>
             <p class="lead alineacion">Ingrese el número de transacción cuyo número de factura se encuentre dúplicado.</p>
             <hr class="my-4">
-            <form>
+            <form action="transac" type="post">
                 <div class="form-row">
                   <div class="col">
-                    <input type="number" class="form-control" placeholder="Número de Transacción">
+                    <input type="number" class="form-control" placeholder="Número de Transacción" id="transac" name="transac">
                   </div>
                 </div>
                 <br>
-                <a class="btn btn-primary btn-lg" id="eliminar" href="#" role="button">Eliminar</a>
+                <a class="btn btn-primary btn-lg" id="eliminar" href="#" role="button" type="submit">Eliminar</a>
             </form>
         </div>
     </body>
