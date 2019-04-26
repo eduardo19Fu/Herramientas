@@ -1,6 +1,6 @@
 <%-- 
-    Document   : exito
-    Created on : 25-abr-2019, 16:22:46
+    Document   : error
+    Created on : 26-abr-2019, 8:39:57
     Author     : Eduardo
 --%>
 
@@ -16,9 +16,9 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <title>Exito</title>
+        <title>Error</title>
     </head>
     <body>
-        <h1>¡Felicidades, ha eliminado el pago duplicado con éxito!</h1>
+        <h1>Error al momento de eliminar.  Consulte con admnistrador</h1>
     </body>
 </html>
