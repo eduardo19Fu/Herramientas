@@ -47,11 +47,11 @@
             <form action="transac" type="post">
                 <div class="form-row">
                   <div class="col">
-                    <input type="number" class="form-control" placeholder="Número de Transacción" id="transac" name="transac">
+                    <input type="number" class="form-control" placeholder="Número de Transacción" id="trans" name="trans">
                   </div>
                 </div>
                 <br>
-                <a class="btn btn-primary btn-lg" id="eliminar" href="#" role="button" type="submit">Eliminar</a>
+                <a class="btn btn-primary btn-lg" id="eliminar" href="transac" role="button" type="submit">Eliminar</a>
             </form>
         </div>
     </body>

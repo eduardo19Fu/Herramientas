@@ -26,7 +26,7 @@ public class Eliminar extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         
-        String transac = request.getParameter("transac");
+        String transac = request.getParameter("trans");
         try{
             int transaccion = Integer.parseInt(transac);
             Consultas consultas = new Consultas();
@@ -34,7 +34,7 @@ public class Eliminar extends HttpServlet {
             if(consultas.eliminar(transaccion) > 0)
                 response.sendRedirect("exito.jsp");
             else
-                response.sendRedirect("");
+                response.sendRedirect("error.jsp");
         }catch(NumberFormatException ex){
             System.out.println(ex.getMessage());
         }
