@@ -7,15 +7,15 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Conexion {
-    private final String url;
-    private final String user;
-    private final String pass;
-    private final String db;
-    private final String ip;
+    private String url;
+    private String user;
+    private String pass;
+    private String db;
+    private String ip;
     private Connection connection;
     
     public Conexion(){
-        ip = "192.168.42";
+        ip = "192.168.1.42";
         user = "sigees_dba";
         pass = "sigees_dba1210";
         db = "sigees_db";
