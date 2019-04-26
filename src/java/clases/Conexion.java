@@ -16,8 +16,8 @@ public class Conexion {
     
     public Conexion(){
         ip = "192.168.42";
-        user = "";
-        pass = "";
+        user = "sigees_dba";
+        pass = "sigees_dba1210";
         db = "sigees_db";
         url = "jdbc:mysql://" + ip + "/" + db ;
     }
