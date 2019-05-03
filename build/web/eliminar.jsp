@@ -51,7 +51,7 @@
                   </div>
                 </div>
                 <br>
-                <a class="btn btn-primary btn-lg" id="eliminar" href="transac" role="button" type="submit">Eliminar</a>
+                <button class="btn btn-primary btn-lg" id="eliminar" href="transac" type="submit">Eliminar</button>
             </form>
         </div>
     </body>
