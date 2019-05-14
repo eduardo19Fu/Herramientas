@@ -20,5 +20,6 @@
     </head>
     <body>
         <h1>¡Felicidades, ha eliminado el pago duplicado con éxito!</h1>
+        <button class="btn btn-primary btn-lg" id="regresar" href="index" onclick="history.back()">Regresar</button>
     </body>
 </html>
