@@ -44,13 +44,19 @@
             <h1 class="h2 alineacion">Realizar cargo de lecturas al sistema SIGEES</h1>
             <p class="lead alineacion">Seleccione un archivo de tipo excel que contenga     los campos correspondientes para realizar el cargo de cuentas del recorrido elegido.</p>
             <hr class="my-4">
-            <form>
+            <form action="" type="post">
                 <div class="form-group">
-                  <label for="exampleFormControlFile1">Seleccione el archivo que desea cargar</label>
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    <input type="text" class="form-control" placeholder="Ingrese el lector del recorrido que desea cargar" id="lector" name="lector">
+                    <br>
+                    <input type="number" class="form-control" placeholder="Ingrese el día de visita del recorrido" id="dia" name="dia">
+                    <br>
+                  <input type="file" class="form-control-file" id="url-archivo">
                 </div>
+                <br>
+                <button class="btn btn-primary btn-lg btn-block" id="importar" href="#" type="submit">Importar</button>
+                <br>
+                <button class="btn btn-success btn-lg btn-block" id="cargo" href="#" type="submit">Cargar Cuentas</button>
             </form>
-            <a class="btn btn-primary btn-lg" id="cargo" href="#" role="button">Cargar</a>
         </div>
     </body>
 </html>

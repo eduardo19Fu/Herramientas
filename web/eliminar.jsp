@@ -40,7 +40,7 @@
               </ul>
             </div>
         </nav>
-        <div class="jumbotron" id="ejecutar">
+        <div class="jumbotron" id="jumbo">
             <h1 class="h2 alineacion">Eliminar pagos dúplicados.</h1>
             <p class="lead alineacion">Ingrese el número de transacción cuyo número de factura se encuentre dúplicado.</p>
             <hr class="my-4">

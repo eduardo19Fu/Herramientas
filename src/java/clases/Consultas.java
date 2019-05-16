@@ -29,4 +29,12 @@ public class Consultas {
             return 0;
         }
     }
+    
+    public int crear_tabla(String url){
+        String sql = "drop table if exists cargo_lecturas; "
+                + "create table cargo_lecturas("
+                +       "no_contador varchar()"
+                + ");";
+        return 0;
+    }
 }

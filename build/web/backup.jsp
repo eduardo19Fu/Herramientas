@@ -40,7 +40,7 @@
               </ul>
             </div>
         </nav>
-        <div class="jumbotron" id="ejecutar">
+        <div class="jumbotron" id="jumbo">
             <h1 class="h2 alineacion">Realizar backup de Base de Datos</h1>
             <p class="lead alineacion">En este módulo, podrá realizar una copia de seguridad de su base de datos todos los días.</p>
             <hr class="my-4">
